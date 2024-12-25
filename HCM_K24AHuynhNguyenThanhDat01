@@ -72,7 +72,7 @@ int main() {
 	printf("8.cho nguoi dung nhap mot phan tu,tim kiem xem phan tu do co ton tai trong mang hay khong\n");
 	printf("9.in ra toan bo so nguyen trong mang duoc binh phuong\n");
 	printf("10.sap xep mang theo thu tu giam dan (Bubble sort)\n");
-        printf("0. Tho·t\n");
+        printf("0. Tho√°t\n");
         printf("nhap lua chon cua ban (0-10): ");
         scanf("%d", &choice);
 
@@ -187,7 +187,7 @@ int main() {
                 printf("nhap phan tu can tim kiem: ");
                 scanf("%d", &value);
                 if (binary_search(arr, size, value)) {
-                    printf("Phan tu %d cÛ trong mang.\n", value);
+                    printf("Phan tu %d c√≥ trong mang.\n", value);
                 } else {
                     printf("Phan tu %d khong co trong mang.\n", value);
                 }
